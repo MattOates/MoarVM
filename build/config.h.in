@@ -27,11 +27,6 @@
 #define MVM_BIGENDIAN @be@
 #endif
 
-/* Readline detection */
-#if @hasreadline@
-#define MVM_HAS_READLINE @hasreadline@
-#endif
-
 /* How this compiler does static inline functions. */
 #define MVM_STATIC_INLINE @static_inline@
 
